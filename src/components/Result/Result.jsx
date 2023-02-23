@@ -13,7 +13,7 @@ const Result = () => {
           "https://api.spacexdata.com/v5/launches/"
         );
         setResults(data);
-        console.log(data);
+        /* console.log(data); */
       } catch (err) {
         console.log(err);
       }
